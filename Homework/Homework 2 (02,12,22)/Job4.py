@@ -3,3 +3,15 @@
 # Позиции хранятся в файле file.txt в одной строке одно число.
 
 # Не смог разобраться как создать в файле file.txt
+
+
+
+n = int(input('Введите число N: '))
+lst = []
+for i in range(-n, n+1):
+    lst.append(i)
+
+with open('file.txt', 'r') as f:
+    inds = f.readlines()
+multiple = 1
+for 
