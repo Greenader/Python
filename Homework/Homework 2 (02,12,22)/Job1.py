@@ -5,9 +5,11 @@
 
 print('Введите число: ')
 n = input()
-s = 0
+sum = 0
 for i in n:
     if i.isdigit():
-        s += int(i)
+        sum += int(i)
 
-print(s)
+print(sum)
+
+
